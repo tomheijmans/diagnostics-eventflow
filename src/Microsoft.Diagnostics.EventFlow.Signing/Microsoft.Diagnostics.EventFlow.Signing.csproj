@@ -84,6 +84,7 @@
       <CoreAssemblies Include="..\Microsoft.Diagnostics.EventFlow.Core\bin\$(Configuration)\netstandard1.6\Microsoft.Diagnostics.EventFlow.Core.dll;
                                ..\Microsoft.Diagnostics.EventFlow.EtwUtilities\bin\$(Configuration)\netstandard1.6\Microsoft.Diagnostics.EventFlow.EtwUtilities.dll;
                                ..\Microsoft.Diagnostics.EventFlow.Inputs.EventSource\bin\$(Configuration)\netstandard1.6\Microsoft.Diagnostics.EventFlow.Inputs.EventSource.dll;
+                               ..\Microsoft.Diagnostics.EventFlow.Inputs.PerformanceCounter\bin\$(Configuration)\netstandard2.0\Microsoft.Diagnostics.EventFlow.Inputs.PerformanceCounter.dll;
                                ..\Microsoft.Diagnostics.EventFlow.Inputs.Trace\bin\$(Configuration)\netstandard1.6\Microsoft.Diagnostics.EventFlow.Inputs.Trace.dll;
                                ..\Microsoft.Diagnostics.EventFlow.Inputs.Serilog\bin\$(Configuration)\netstandard1.6\Microsoft.Diagnostics.EventFlow.Inputs.Serilog.dll;
                                ..\Microsoft.Diagnostics.EventFlow.Inputs.MicrosoftLogging\bin\$(Configuration)\netstandard1.6\Microsoft.Diagnostics.EventFlow.Inputs.MicrosoftLogging.dll;
@@ -119,6 +120,7 @@
                           $(OutputPath)\core\Microsoft.Diagnostics.EventFlow.Core.dll;
                           $(OutputPath)\core\Microsoft.Diagnostics.EventFlow.EtwUtilities.dll;
                           $(OutputPath)\core\Microsoft.Diagnostics.EventFlow.Inputs.EventSource.dll;
+                          $(OutputPath)\core\Microsoft.Diagnostics.EventFlow.Inputs.PerformanceCounter.dll;
                           $(OutputPath)\core\Microsoft.Diagnostics.EventFlow.Inputs.Trace.dll;
                           $(OutputPath)\core\Microsoft.Diagnostics.EventFlow.Inputs.Serilog.dll;
                           $(OutputPath)\core\Microsoft.Diagnostics.EventFlow.Inputs.MicrosoftLogging.dll;
@@ -155,6 +157,7 @@
     <Copy SourceFiles="$(OutputPath)\core\Microsoft.Diagnostics.EventFlow.Core.dll" DestinationFolder="..\Microsoft.Diagnostics.EventFlow.Core\bin\$(Configuration)\netstandard1.6"/>
     <Copy SourceFiles="$(OutputPath)\core\Microsoft.Diagnostics.EventFlow.EtwUtilities.dll" DestinationFolder="..\Microsoft.Diagnostics.EventFlow.EtwUtilities\bin\$(Configuration)\netstandard1.6"/>
     <Copy SourceFiles="$(OutputPath)\core\Microsoft.Diagnostics.EventFlow.Inputs.EventSource.dll" DestinationFolder="..\Microsoft.Diagnostics.EventFlow.Inputs.EventSource\bin\$(Configuration)\netstandard1.6"/>
+    <Copy SourceFiles="$(OutputPath)\core\Microsoft.Diagnostics.EventFlow.Inputs.PerformanceCounter.dll" DestinationFolder="..\Microsoft.Diagnostics.EventFlow.Inputs.PerformanceCounter\bin\$(Configuration)\netstandard2.0"/>
     <Copy SourceFiles="$(OutputPath)\core\Microsoft.Diagnostics.EventFlow.Inputs.Trace.dll" DestinationFolder="..\Microsoft.Diagnostics.EventFlow.Inputs.Trace\bin\$(Configuration)\netstandard1.6"/>
     <Copy SourceFiles="$(OutputPath)\core\Microsoft.Diagnostics.EventFlow.Inputs.Serilog.dll" DestinationFolder="..\Microsoft.Diagnostics.EventFlow.Inputs.Serilog\bin\$(Configuration)\netstandard1.6"/>
     <Copy SourceFiles="$(OutputPath)\core\Microsoft.Diagnostics.EventFlow.Inputs.MicrosoftLogging.dll" DestinationFolder="..\Microsoft.Diagnostics.EventFlow.Inputs.MicrosoftLogging\bin\$(Configuration)\netstandard1.6"/>

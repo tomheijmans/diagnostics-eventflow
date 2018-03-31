@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27130.2010
+VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{FC86C736-6428-431B-B83F-940BF7182757}"
 EndProject
@@ -29,7 +29,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FunctionalTests", "Function
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Nuspecs", "Nuspecs", "{3B5ED5A8-29C6-4DF3-B8E8-C422453415C5}"
 	ProjectSection(SolutionItems) = preProject
-		nuspecs\ServiceFabric\Microsoft.Diagnostics.EventFlow.ServiceFabric.nuspec = nuspecs\ServiceFabric\Microsoft.Diagnostics.EventFlow.ServiceFabric.nuspec
 		nuspecs\Suite\Microsoft.Diagnostics.EventFlow.Suite.nuspec = nuspecs\Suite\Microsoft.Diagnostics.EventFlow.Suite.nuspec
 	EndProjectSection
 EndProject
